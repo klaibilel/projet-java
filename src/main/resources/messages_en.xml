@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<messages language="en" country="US">
+    <!-- General messages -->
+    <message key="app.title">Smart Bee House Management System</message>
+    <message key="app.welcome">Welcome to Smart Bee House</message>
+    <message key="app.description">Manage your beehives and optimize your honey production</message>
+    
+    <!-- Navigation -->
+    <message key="nav.dashboard">Dashboard</message>
+    <message key="nav.beehives">Beehives</message>
+    <message key="nav.sites">Sites</message>
+    <message key="nav.farms">Farms</message>
+    <message key="nav.agents">Agents</message>
+    <message key="nav.visits">Visits</message>
+    <message key="nav.reports">Reports</message>
+    <message key="nav.settings">Settings</message>
+    <message key="nav.logout">Logout</message>
+    
+    <!-- Beehives -->
+    <message key="beehive.title">Beehive Management</message>
+    <message key="beehive.add">Add Beehive</message>
+    <message key="beehive.edit">Edit Beehive</message>
+    <message key="beehive.delete">Delete Beehive</message>
+    <message key="beehive.name">Beehive Name</message>
+    <message key="beehive.description">Description</message>
+    <message key="beehive.site">Site</message>
+    <message key="beehive.agent">Responsible Agent</message>
+    <message key="beehive.status">Status</message>
+    <message key="beehive.active">Active</message>
+    <message key="beehive.inactive">Inactive</message>
+    <message key="beehive.honey.quantity">Honey Quantity</message>
+    <message key="beehive.last.visit">Last Visit</message>
+    <message key="beehive.next.visit">Next Visit</message>
+    
+    <!-- Sites -->
+    <message key="site.title">Site Management</message>
+    <message key="site.add">Add Site</message>
+    <message key="site.edit">Edit Site</message>
+    <message key="site.name">Site Name</message>
+    <message key="site.location">Location</message>
+    <message key="site.latitude">Latitude</message>
+    <message key="site.longitude">Longitude</message>
+    <message key="site.altitude">Altitude</message>
+    <message key="site.implementation.date">Implementation Date</message>
+    <message key="site.relocation.date">Relocation Date</message>
+    <message key="site.closure.date">Closure Date</message>
+    
+    <!-- Farms -->
+    <message key="farm.title">Farm Management</message>
+    <message key="farm.add">Add Farm</message>
+    <message key="farm.edit">Edit Farm</message>
+    <message key="farm.name">Farm Name</message>
+    <message key="farm.owner">Owner</message>
+    <message key="farm.address">Address</message>
+    <message key="farm.sites.count">Number of Sites</message>
+    <message key="farm.beehives.count">Number of Beehives</message>
+    
+    <!-- Agents -->
+    <message key="agent.title">Agent Management</message>
+    <message key="agent.add">Add Agent</message>
+    <message key="agent.edit">Edit Agent</message>
+    <message key="agent.firstname">First Name</message>
+    <message key="agent.lastname">Last Name</message>
+    <message key="agent.email">Email</message>
+    <message key="agent.phone">Phone</message>
+    <message key="agent.role">Role</message>
+    <message key="agent.specialization">Specialization</message>
+    <message key="agent.supervisor">Supervisor</message>
+    <message key="agent.beehives.count">Assigned Beehives</message>
+    
+    <!-- Visits -->
+    <message key="visit.title">Visit Management</message>
+    <message key="visit.add">Schedule Visit</message>
+    <message key="visit.edit">Edit Visit</message>
+    <message key="visit.scheduled.date">Scheduled Date</message>
+    <message key="visit.actual.date">Actual Date</message>
+    <message key="visit.duration">Duration (minutes)</message>
+    <message key="visit.reason">Reason</message>
+    <message key="visit.status">Status</message>
+    <message key="visit.observations">Observations</message>
+    <message key="visit.planned.actions">Planned Actions</message>
+    <message key="visit.performed.actions">Performed Actions</message>
+    <message key="visit.recommendations">Recommendations</message>
+    <message key="visit.ratings">Ratings</message>
+    <message key="visit.population.rating">Population Rating</message>
+    <message key="visit.health.rating">Health Rating</message>
+    <message key="visit.productivity.rating">Productivity Rating</message>
+    
+    <!-- Visit statuses -->
+    <message key="visit.status.planned">Planned</message>
+    <message key="visit.status.approved">Approved</message>
+    <message key="visit.status.in.progress">In Progress</message>
+    <message key="visit.status.completed">Completed</message>
+    <message key="visit.status.cancelled">Cancelled</message>
+    <message key="visit.status.postponed">Postponed</message>
+    
+    <!-- Visit reasons -->
+    <message key="visit.reason.health.inspection">Health Inspection</message>
+    <message key="visit.reason.new.swarm">New Swarm Population</message>
+    <message key="visit.reason.queen.change">Queen Change</message>
+    <message key="visit.reason.feeding">Feeding</message>
+    <message key="visit.reason.medication">Medication</message>
+    <message key="visit.reason.swarm.division">Swarm Division</message>
+    <message key="visit.reason.frame.addition">Frame Addition</message>
+    <message key="visit.reason.extension.addition">Extension Addition</message>
+    <message key="visit.reason.honey.collection">Honey Collection</message>
+    <message key="visit.reason.production.evaluation">Production Evaluation</message>
+    <message key="visit.reason.population.evaluation">Population Evaluation</message>
+    <message key="visit.reason.routine.check">Routine Check</message>
+    
+    <!-- Dashboards -->
+    <message key="dashboard.title">Dashboard</message>
+    <message key="dashboard.overview">Overview</message>
+    <message key="dashboard.statistics">Statistics</message>
+    <message key="dashboard.alerts">Alerts</message>
+    <message key="dashboard.high.production">High Production</message>
+    <message key="dashboard.low.production">Low Production</message>
+    <message key="dashboard.scheduled.visits">Scheduled Visits</message>
+    <message key="dashboard.overdue.visits">Overdue Visits</message>
+    
+    <!-- Forms -->
+    <message key="form.save">Save</message>
+    <message key="form.cancel">Cancel</message>
+    <message key="form.delete">Delete</message>
+    <message key="form.edit">Edit</message>
+    <message key="form.view">View</message>
+    <message key="form.search">Search</message>
+    <message key="form.filter">Filter</message>
+    <message key="form.export">Export</message>
+    <message key="form.import">Import</message>
+    <message key="form.required">Required</message>
+    
+    <!-- Validation messages -->
+    <message key="validation.required">This field is required</message>
+    <message key="validation.email">Invalid email format</message>
+    <message key="validation.number">Must be a number</message>
+    <message key="validation.positive">Must be positive</message>
+    <message key="validation.max.length">Maximum length exceeded</message>
+    <message key="validation.min.length">Minimum length not reached</message>
+    
+    <!-- Success messages -->
+    <message key="success.created">Successfully created</message>
+    <message key="success.updated">Successfully updated</message>
+    <message key="success.deleted">Successfully deleted</message>
+    <message key="success.saved">Successfully saved</message>
+    
+    <!-- Error messages -->
+    <message key="error.general">An error occurred</message>
+    <message key="error.not.found">Item not found</message>
+    <message key="error.access.denied">Access denied</message>
+    <message key="error.database">Database error</message>
+    <message key="error.network">Network error</message>
+    <message key="error.validation">Validation error</message>
+    
+    <!-- Authentication -->
+    <message key="auth.login">Login</message>
+    <message key="auth.logout">Logout</message>
+    <message key="auth.username">Username</message>
+    <message key="auth.password">Password</message>
+    <message key="auth.remember">Remember me</message>
+    <message key="auth.forgot.password">Forgot password?</message>
+    <message key="auth.google.login">Login with Google</message>
+    
+    <!-- Units of measurement -->
+    <message key="unit.kg">kg</message>
+    <message key="unit.g">g</message>
+    <message key="unit.celsius">°C</message>
+    <message key="unit.fahrenheit">°F</message>
+    <message key="unit.percent">%</message>
+    <message key="unit.meter">m</message>
+    <message key="unit.kilometer">km</message>
+    <message key="unit.minute">min</message>
+    <message key="unit.hour">h</message>
+    <message key="unit.day">day</message>
+    
+    <!-- Dates and time -->
+    <message key="date.today">Today</message>
+    <message key="date.yesterday">Yesterday</message>
+    <message key="date.tomorrow">Tomorrow</message>
+    <message key="date.this.week">This week</message>
+    <message key="date.this.month">This month</message>
+    <message key="date.this.year">This year</message>
+</messages>

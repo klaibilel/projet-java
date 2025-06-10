@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<messages language="ar" country="SA">
+    <!-- الرسائل العامة -->
+    <message key="app.title">نظام إدارة بيوت النحل الذكية</message>
+    <message key="app.welcome">مرحباً بك في بيت النحل الذكي</message>
+    <message key="app.description">إدارة خلايا النحل وتحسين إنتاج العسل</message>
+    
+    <!-- التنقل -->
+    <message key="nav.dashboard">لوحة التحكم</message>
+    <message key="nav.beehives">خلايا النحل</message>
+    <message key="nav.sites">المواقع</message>
+    <message key="nav.farms">المزارع</message>
+    <message key="nav.agents">الوكلاء</message>
+    <message key="nav.visits">الزيارات</message>
+    <message key="nav.reports">التقارير</message>
+    <message key="nav.settings">الإعدادات</message>
+    <message key="nav.logout">تسجيل الخروج</message>
+    
+    <!-- خلايا النحل -->
+    <message key="beehive.title">إدارة خلايا النحل</message>
+    <message key="beehive.add">إضافة خلية نحل</message>
+    <message key="beehive.edit">تعديل خلية النحل</message>
+    <message key="beehive.delete">حذف خلية النحل</message>
+    <message key="beehive.name">اسم خلية النحل</message>
+    <message key="beehive.description">الوصف</message>
+    <message key="beehive.site">الموقع</message>
+    <message key="beehive.agent">الوكيل المسؤول</message>
+    <message key="beehive.status">الحالة</message>
+    <message key="beehive.active">نشط</message>
+    <message key="beehive.inactive">غير نشط</message>
+    <message key="beehive.honey.quantity">كمية العسل</message>
+    <message key="beehive.last.visit">آخر زيارة</message>
+    <message key="beehive.next.visit">الزيارة القادمة</message>
+    
+    <!-- المواقع -->
+    <message key="site.title">إدارة المواقع</message>
+    <message key="site.add">إضافة موقع</message>
+    <message key="site.edit">تعديل الموقع</message>
+    <message key="site.name">اسم الموقع</message>
+    <message key="site.location">الموقع</message>
+    <message key="site.latitude">خط العرض</message>
+    <message key="site.longitude">خط الطول</message>
+    <message key="site.altitude">الارتفاع</message>
+    <message key="site.implementation.date">تاريخ التنفيذ</message>
+    <message key="site.relocation.date">تاريخ النقل</message>
+    <message key="site.closure.date">تاريخ الإغلاق</message>
+    
+    <!-- المزارع -->
+    <message key="farm.title">إدارة المزارع</message>
+    <message key="farm.add">إضافة مزرعة</message>
+    <message key="farm.edit">تعديل المزرعة</message>
+    <message key="farm.name">اسم المزرعة</message>
+    <message key="farm.owner">المالك</message>
+    <message key="farm.address">العنوان</message>
+    <message key="farm.sites.count">عدد المواقع</message>
+    <message key="farm.beehives.count">عدد خلايا النحل</message>
+    
+    <!-- الوكلاء -->
+    <message key="agent.title">إدارة الوكلاء</message>
+    <message key="agent.add">إضافة وكيل</message>
+    <message key="agent.edit">تعديل الوكيل</message>
+    <message key="agent.firstname">الاسم الأول</message>
+    <message key="agent.lastname">اسم العائلة</message>
+    <message key="agent.email">البريد الإلكتروني</message>
+    <message key="agent.phone">الهاتف</message>
+    <message key="agent.role">الدور</message>
+    <message key="agent.specialization">التخصص</message>
+    <message key="agent.supervisor">المشرف</message>
+    <message key="agent.beehives.count">خلايا النحل المعينة</message>
+    
+    <!-- الزيارات -->
+    <message key="visit.title">إدارة الزيارات</message>
+    <message key="visit.add">جدولة زيارة</message>
+    <message key="visit.edit">تعديل الزيارة</message>
+    <message key="visit.scheduled.date">التاريخ المجدول</message>
+    <message key="visit.actual.date">التاريخ الفعلي</message>
+    <message key="visit.duration">المدة (دقائق)</message>
+    <message key="visit.reason">السبب</message>
+    <message key="visit.status">الحالة</message>
+    <message key="visit.observations">الملاحظات</message>
+    <message key="visit.planned.actions">الإجراءات المخططة</message>
+    <message key="visit.performed.actions">الإجراءات المنفذة</message>
+    <message key="visit.recommendations">التوصيات</message>
+    <message key="visit.ratings">التقييمات</message>
+    <message key="visit.population.rating">تقييم السكان</message>
+    <message key="visit.health.rating">تقييم الصحة</message>
+    <message key="visit.productivity.rating">تقييم الإنتاجية</message>
+    
+    <!-- حالات الزيارة -->
+    <message key="visit.status.planned">مخططة</message>
+    <message key="visit.status.approved">معتمدة</message>
+    <message key="visit.status.in.progress">قيد التنفيذ</message>
+    <message key="visit.status.completed">مكتملة</message>
+    <message key="visit.status.cancelled">ملغاة</message>
+    <message key="visit.status.postponed">مؤجلة</message>
+    
+    <!-- أسباب الزيارة -->
+    <message key="visit.reason.health.inspection">فحص صحي</message>
+    <message key="visit.reason.new.swarm">تجمع جديد</message>
+    <message key="visit.reason.queen.change">تغيير الملكة</message>
+    <message key="visit.reason.feeding">التغذية</message>
+    <message key="visit.reason.medication">الدواء</message>
+    <message key="visit.reason.swarm.division">تقسيم التجمع</message>
+    <message key="visit.reason.frame.addition">إضافة إطار</message>
+    <message key="visit.reason.extension.addition">إضافة امتداد</message>
+    <message key="visit.reason.honey.collection">جمع العسل</message>
+    <message key="visit.reason.production.evaluation">تقييم الإنتاج</message>
+    <message key="visit.reason.population.evaluation">تقييم السكان</message>
+    <message key="visit.reason.routine.check">فحص روتيني</message>
+    
+    <!-- لوحات التحكم -->
+    <message key="dashboard.title">لوحة التحكم</message>
+    <message key="dashboard.overview">نظرة عامة</message>
+    <message key="dashboard.statistics">الإحصائيات</message>
+    <message key="dashboard.alerts">التنبيهات</message>
+    <message key="dashboard.high.production">إنتاج عالي</message>
+    <message key="dashboard.low.production">إنتاج منخفض</message>
+    <message key="dashboard.scheduled.visits">الزيارات المجدولة</message>
+    <message key="dashboard.overdue.visits">الزيارات المتأخرة</message>
+    
+    <!-- النماذج -->
+    <message key="form.save">حفظ</message>
+    <message key="form.cancel">إلغاء</message>
+    <message key="form.delete">حذف</message>
+    <message key="form.edit">تعديل</message>
+    <message key="form.view">عرض</message>
+    <message key="form.search">بحث</message>
+    <message key="form.filter">تصفية</message>
+    <message key="form.export">تصدير</message>
+    <message key="form.import">استيراد</message>
+    <message key="form.required">مطلوب</message>
+    
+    <!-- رسائل التحقق -->
+    <message key="validation.required">هذا الحقل مطلوب</message>
+    <message key="validation.email">تنسيق البريد الإلكتروني غير صحيح</message>
+    <message key="validation.number">يجب أن يكون رقماً</message>
+    <message key="validation.positive">يجب أن يكون موجباً</message>
+    <message key="validation.max.length">تم تجاوز الطول الأقصى</message>
+    <message key="validation.min.length">لم يتم الوصول للطول الأدنى</message>
+    
+    <!-- رسائل النجاح -->
+    <message key="success.created">تم الإنشاء بنجاح</message>
+    <message key="success.updated">تم التحديث بنجاح</message>
+    <message key="success.deleted">تم الحذف بنجاح</message>
+    <message key="success.saved">تم الحفظ بنجاح</message>
+    
+    <!-- رسائل الخطأ -->
+    <message key="error.general">حدث خطأ</message>
+    <message key="error.not.found">العنصر غير موجود</message>
+    <message key="error.access.denied">تم رفض الوصول</message>
+    <message key="error.database">خطأ في قاعدة البيانات</message>
+    <message key="error.network">خطأ في الشبكة</message>
+    <message key="error.validation">خطأ في التحقق</message>
+    
+    <!-- المصادقة -->
+    <message key="auth.login">تسجيل الدخول</message>
+    <message key="auth.logout">تسجيل الخروج</message>
+    <message key="auth.username">اسم المستخدم</message>
+    <message key="auth.password">كلمة المرور</message>
+    <message key="auth.remember">تذكرني</message>
+    <message key="auth.forgot.password">نسيت كلمة المرور؟</message>
+    <message key="auth.google.login">تسجيل الدخول بجوجل</message>
+    
+    <!-- وحدات القياس -->
+    <message key="unit.kg">كغ</message>
+    <message key="unit.g">غ</message>
+    <message key="unit.celsius">°م</message>
+    <message key="unit.fahrenheit">°ف</message>
+    <message key="unit.percent">%</message>
+    <message key="unit.meter">م</message>
+    <message key="unit.kilometer">كم</message>
+    <message key="unit.minute">دقيقة</message>
+    <message key="unit.hour">ساعة</message>
+    <message key="unit.day">يوم</message>
+    
+    <!-- التواريخ والوقت -->
+    <message key="date.today">اليوم</message>
+    <message key="date.yesterday">أمس</message>
+    <message key="date.tomorrow">غداً</message>
+    <message key="date.this.week">هذا الأسبوع</message>
+    <message key="date.this.month">هذا الشهر</message>
+    <message key="date.this.year">هذا العام</message>
+</messages>
