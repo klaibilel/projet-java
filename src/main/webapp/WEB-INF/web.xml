@@ -8,43 +8,6 @@
     <display-name>Smart Bee House Management System</display-name>
     <description>Système de gestion apiculture intelligent</description>
     
-    <!-- Configuration de l'encodage -->
-    <filter>
-        <filter-name>CharacterEncodingFilter</filter-name>
-        <filter-class>com.smartbeehouse.filter.CharacterEncodingFilter</filter-class>
-        <init-param>
-            <param-name>encoding</param-name>
-            <param-value>UTF-8</param-value>
-        </init-param>
-    </filter>
-    
-    <filter-mapping>
-        <filter-name>CharacterEncodingFilter</filter-name>
-        <url-pattern>/*</url-pattern>
-    </filter-mapping>
-    
-    <!-- Configuration CORS -->
-    <filter>
-        <filter-name>CorsFilter</filter-name>
-        <filter-class>com.smartbeehouse.filter.CorsFilter</filter-class>
-    </filter>
-    
-    <filter-mapping>
-        <filter-name>CorsFilter</filter-name>
-        <url-pattern>/*</url-pattern>
-    </filter-mapping>
-    
-    <!-- Configuration de sécurité -->
-    <filter>
-        <filter-name>SecurityFilter</filter-name>
-        <filter-class>com.smartbeehouse.filter.SecurityFilter</filter-class>
-    </filter>
-    
-    <filter-mapping>
-        <filter-name>SecurityFilter</filter-name>
-        <url-pattern>/api/*</url-pattern>
-    </filter-mapping>
-    
     <!-- Servlets -->
     <servlet>
         <servlet-name>BeehiveServlet</servlet-name>
@@ -130,7 +93,7 @@
     
     <context-param>
         <param-name>database.password</param-name>
-        <param-value>password</param-value>
+        <param-value></param-value>
     </context-param>
     
     <!-- Configuration de l'internationalisation -->
@@ -139,7 +102,7 @@
         <param-value>messages</param-value>
     </context-param>
     
-    <!-- Configuration SSL -->
+    <!-- Configuration SSL 
     <security-constraint>
         <web-resource-collection>
             <web-resource-name>Secure Area</web-resource-name>
@@ -149,4 +112,6 @@
             <transport-guarantee>CONFIDENTIAL</transport-guarantee>
         </user-data-constraint>
     </security-constraint>
+-->
+
 </web-app>

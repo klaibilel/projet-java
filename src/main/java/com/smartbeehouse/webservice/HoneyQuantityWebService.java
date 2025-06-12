@@ -1,10 +1,9 @@
 package com.smartbeehouse.webservice;
-
+import jakarta.jws.WebService;
+import jakarta.jws.WebMethod;
+import jakarta.jws.WebParam;
+import jakarta.jws.soap.SOAPBinding;
 import com.smartbeehouse.service.BeehiveService;
-import javax.jws.WebMethod;
-import javax.jws.WebParam;
-import javax.jws.WebService;
-import javax.xml.ws.soap.SOAPBinding;
 import java.sql.SQLException;
 
 /**
@@ -13,7 +12,8 @@ import java.sql.SQLException;
 @WebService(name = "HoneyQuantityService", 
            targetNamespace = "http://webservice.smartbeehouse.com/",
            serviceName = "HoneyQuantityService")
-@SOAPBinding(style = SOAPBinding.Style.RPC)
+@SOAPBinding(style = SOAPBinding.Style.DOCUMENT)
+
 public class HoneyQuantityWebService {
     
     private final BeehiveService beehiveService;

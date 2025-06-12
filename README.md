@@ -108,20 +108,39 @@ mysql -u root -p smart_bee_house < src/main/resources/database/schema.sql
 
 3. Configurer les paramètres de connexion dans `ConfigBKS.ini`
 
-### Déploiement
-1. Compiler le projet :
-```bash
-mvn clean compile
-```
+### Compilation et Déploiement
 
-2. Créer le package WAR :
+#### 1. Compilation du projet
 ```bash
+# Nettoyer et compiler
+mvn clean compile
+
+# Exécuter les tests
+mvn test
+
+# Créer le package WAR
 mvn package
 ```
 
-3. Déployer sur Tomcat :
+#### 2. Déploiement sur Tomcat
 ```bash
+# Copier le WAR dans Tomcat
 cp target/smart-bee-house.war $TOMCAT_HOME/webapps/
+
+# Ou utiliser le plugin Maven
+mvn tomcat7:deploy
+```
+
+#### 3. Déploiement avec différents profils
+```bash
+# Développement (par défaut)
+mvn clean package
+
+# Test
+mvn clean package -Ptest
+
+# Production
+mvn clean package -Pprod
 ```
 
 ### Configuration SSL
@@ -253,6 +272,36 @@ mvn verify
 3. Développement avec tests
 4. Pull request avec description détaillée
 5. Review et merge
+
+## Dépannage
+
+### Problèmes Courants
+
+#### Erreur de compilation Maven
+```bash
+# Vérifier la version Java
+java -version
+
+# Nettoyer le cache Maven
+mvn dependency:purge-local-repository
+
+# Recompiler
+mvn clean compile
+```
+
+#### Problème de base de données
+```bash
+# Vérifier la connexion MySQL
+mysql -u root -p -e "SELECT 1"
+
+# Recréer la base de données
+mysql -u root -p -e "DROP DATABASE IF EXISTS smart_bee_house; CREATE DATABASE smart_bee_house;"
+```
+
+#### Problème SSL
+- Vérifier les certificats dans `ConfigBKS.ini`
+- Régénérer le keystore si nécessaire
+- Vérifier la configuration Tomcat
 
 ## Support
 

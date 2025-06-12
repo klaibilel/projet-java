@@ -32,11 +32,14 @@ document.addEventListener('DOMContentLoaded', function() {
  * Initialisation du tableau de bord
  */
 function initializeDashboard() {
+    // Initialisation des données
     loadStatistics();
     loadProductionChart();
     loadRecentVisits();
     loadHighProductionBeehives();
     loadLowProductionBeehives();
+
+
 }
 
 /**
