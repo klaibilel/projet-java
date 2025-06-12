@@ -135,7 +135,11 @@
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter</artifactId>
+<<<<<<< HEAD
             <version>5.10.2</version>
+=======
+            <version>${junit.version}</version>
+>>>>>>> 2692fbafc9b5a9364e2022fb540122f5974f1e3f
             <scope>test</scope>
         </dependency>
         
@@ -268,9 +272,15 @@
                 <activeByDefault>true</activeByDefault>
             </activation>
             <properties>
+<<<<<<< HEAD
                 <db.url>jdbc:mysql://localhost:3306/smart_bee_house</db.url>
                 <db.username>root</db.username>
                 <db.password></db.password>
+=======
+                <db.url>jdbc:mysql://localhost:3306/smart_bee_house_dev</db.url>
+                <db.username>root</db.username>
+                <db.password>password</db.password>
+>>>>>>> 2692fbafc9b5a9364e2022fb540122f5974f1e3f
             </properties>
         </profile>
         
